@@ -1,0 +1,11 @@
+{
+  "name": "portfoliosite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielRoeven/portfoliosite.git"
+  },
+  "author": "Daniel Roeven",
+  "devDependencies": {
+    "grunt": "^1.0.2"
+  }
+}
