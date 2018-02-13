@@ -1,0 +1,9 @@
+{
+  "name": "portfoliosite",
+  "version": "0.1.0",
+  "author": "Daniel Roeven",
+  "homepage": "https://github.com/DanielRoeven/portfoliosite#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2"
+  }
+}
