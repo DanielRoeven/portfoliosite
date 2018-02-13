@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'RuckSack Book';
+	font-family: 'Rucksack Book';
 	src: url('fonts/rucksack-book-webfont.eot');
 	src: url('fonts/rucksack-book-webfont.eot?#iefix') format('embedded-opentype'),
 		 url('fonts/rucksack-book-webfont.woff') format('woff'),
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-	font-family: 'RuckSack Demi';
+	font-family: 'Rucksack Demi';
 	src: url('fonts/rucksack-demi-webfont.eot');
 	src: url('fonts/rucksack-demi-webfont.eot?#iefix') format('embedded-opentype'),
 		 url('fonts/rucksack-demi-webfont.woff') format('woff'),
@@ -20,16 +20,48 @@
 	font-style: normal;
 }
 
+$offset: -.15em;
+
+html {
+	font-size: 30px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
 body {
-	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	background-image: url('img/line.png');
+	background-size: 1em;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #landing-headshot {
 	height: 4em;
 	width: 4em;
 	border-radius: 2em;
+	margin-bottom: 1em;
 }
 
 p {
 	font-size: 1em;
+	font-family: 'RuckSack Book';
+	line-height: 1.5rem;
+	margin-top: $offset;
+	margin-bottom: -$offset;
+}
+
+button {
+	border: none;
+	display: block;
+	height: 1rem;
 }
