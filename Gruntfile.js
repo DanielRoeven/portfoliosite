@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
 	grunt.initConfig({
-
+		
 		processhtml: {
 			dist: {
 				files: {
@@ -40,10 +40,10 @@ module.exports = function(grunt) {
 				tasks: ['dev'],
 				options: {
 					spawn: false,
-					livereload: true,
 				},
 			},
 		},
+		
 	});
 
 	grunt.loadNpmTasks('grunt-processhtml');
