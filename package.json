@@ -1,9 +1,19 @@
 {
   "name": "portfoliosite",
+  "description": "Portfolio site of Daniel Roeven",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielRoeven/portfoliosite.git"
+  },
   "author": "Daniel Roeven",
   "homepage": "https://github.com/DanielRoeven/portfoliosite#readme",
+  "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.0.2"
+    "grunt": "^1.0.2",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-processhtml": "^0.4.1"
   }
 }
