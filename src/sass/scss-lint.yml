@@ -1,0 +1,25 @@
+    linters:
+      Indentation:
+        enabled: true
+        character: tab
+        width: 1
+      IdSelector:
+        enabled: false
+      PropertySortOrder:
+        enabled: false
+        order: concentric
+        separate_groups: true
+      TrailingWhitespace:
+        enabled: false
+      ColorKeyword:
+        enabled: false
+      ColorVariable:
+        enabled: false
+      NestingDepth:
+        enabled: false
+      Comment:
+        enabled: false
+      ImportantRule:
+        enabled: false
+      StringQuotes:
+        enabled: false

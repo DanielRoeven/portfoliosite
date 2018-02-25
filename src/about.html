@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Daniel Roeven &bull; About</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- build:css inline ../temp/css/style.css --><!-- /build -->
+		<!-- build:js inline ../node_modules/barba.js/dist/barba.min.js --><!-- /build -->
+		<!-- build:js inline ../temp/js/transitions.js --><!-- /build -->
+		<!-- build:js inline ../node_modules/swiper/dist/js/swiper.min.js --><!-- /build -->
+		<!-- build:js inline js/analytics.js --><!-- /build -->
+
+	</head>
+	<body id="barba-wrapper">
+		<!-- build:include ../src/partials/header.html --><!-- /build -->
+		<div class="grid barba-container">
+			<main>
+				<article>
+					<h3>About</h3>
+					<p>
+						<!-- build:include ../src/partials/img/headshot-2x.html --><!-- /build -->
+						My name is Daniel Roeven and I am an interaction designer currently pursuing a masters degree in interaction design at <a href="http://chalmers.se" target="_blank">Chalmers University of Technology</a> in Gothenburg, Sweden. Before this, I got a bachelors degree in computer science at <a href="http://ru.nl" target="_blank">Radboud University Nijmegen</a> and a minor in industrial design at <a href="http://tue.nl" target="_blank">Eindhoven University of Technology</a>, both in the Netherlands.
+					</p>
+					<p>Shaping technology as a tool for people to realise their ambitions is what excites me. I love creating products in interdisciplinary teams from inception to deployment. I have previously worked as an interaction designer, front-end developer, and teaching assistant (in a usability course).</p>
+					<p>My design skills stretch the whole spectrum: from user research, idea and concept generation, through sketching and prototyping, to evaluation and supporting implementation. The right process ensures a high-quality product, happy users, and the right decisions for the business and client.</p>
+				</article>
+			</main>
+			<aside>
+				<h4>Skills</h4>
+				<figure id="skills">
+					<div>
+						<h5>Design</h5>
+						<ul>
+							<li>Interaction</li>
+							<li><abbr title="User Interface">UI</abbr></li>
+							<li><abbr title="User Experience">UX</abbr></li>
+							<li>Typography</li>
+							<li>Iconography</li>
+						</ul>
+					</div>
+					<div>
+						<h5>Development</h5>
+						<ul>
+							<li>javascript</li>
+							<li><abbr title="Hypertext Markup Language">HTML</abbr> & <abbr title="Cascading Stylesheets">CSS</abbr></li>
+							<li>react</li>
+							<li>swift</li>
+							<li>angular</li>
+						</ul>
+					</div>
+					<div>
+						<h5>Tools</h5>
+						<ul>
+							<li>Sketch</li>
+							<li>Framer</li>
+							<li>Photoshop</li>
+							<li>InDesign</li>
+							<li>After Effects</li>
+						</ul>
+					</div>
+				</figure>
+				<h4>Fun Fact</h4>
+				<figure id="trivia-figure"
+					onmouseover="pauseTrivia()"
+					onmouseout="resumeTrivia()"
+					ontouchstart="pauseTrivia()"
+					ontouchend="resumeTrivia()">
+					<div id="trivia-wrapper">
+						<progress id="trivia-progress" max="800" value="0"></progress>
+						<ul>
+							<li class="trivium active-trivium">
+								<p>
+									My favorite typefaces are <a href="https://www.myfonts.com/fonts/adobe/kepler/">Kepler</a> by Robert Slimbach of Adobe & <a href="http://regularbolditalic.com/fonts/rucksack">RuckSack</a> by Jeffrey Schreiber of RegularBoldItalic.
+								</p>
+							</li>
+							<li class="trivium">
+								<p>
+									I love cooking, in particular Indian, Israeli, and Swedish cuisine.
+								</p>
+							</li>
+							<li class="trivium">
+								<p>
+									I climb. Be it bouldering, indoor toproping, or outdoor lead climbing, I&rsquo;m happy up there.
+								</p>
+							</li>
+							<li class="trivium">
+								<p>
+									The best headphone in the world is <a href="http://urbanears.com/plattan-2">Plattan from Urbanears</a> and I&rsquo;m lucky enough to own a pair.
+								</p>
+							</li>
+							<li class="trivium">
+								<p>
+									<a href="http://www.google.com/images?q=nike+killshot+2">Nike Killshots 2</a> are cool sneakers. I dig &lsquo;em.
+								</p>
+							</li>
+							<li class="trivium">
+								<p>
+									Swedish swing jazz/hip hop band <a href="https://www.youtube.com/watch?v=LnaeImQ0TSg">Movits!</a> is pretty amazing.
+								</p>
+							</li>
+							<li class="trivium">
+								<p>
+								The inter&bull;punct is a classy and most elegant typographic symbol.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</figure>
+			</aside>
+		</div>
+	</body>
+</html>

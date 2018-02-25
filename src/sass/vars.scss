@@ -1,0 +1,123 @@
+$mobile: 600px;
+
+$debug1: rgba(255, 122, 0, .5);
+$debug2: rgba(0, 122, 255, .5);
+$debug3: rgba(255, 0, 122, .5);
+$debug4: rgba(0, 255, 122, .5);
+
+$ratio: 1.229289941;
+$offset: .12;
+$cap-height: .675;
+
+$l: 1rem * $ratio;
+$m: 1rem;
+$s: 1rem / $ratio;
+$xs: (1rem / $ratio) / $ratio;
+$l-offset: (1.5 - ($cap-height * $l * $ratio)) / 2;
+$m-offset: (1.5 - ($cap-height * $m * $ratio)) / 2;
+$s-offset: (1.5 - ($cap-height * $s * $ratio)) / 2;
+$s-offset1: (1 - ($cap-height * $s * $ratio)) / 2;
+$xs-offset: (1.5 - ($cap-height * $xs * $ratio)) / 2;
+$xs-offset1: (1 - ($cap-height * $xs * $ratio)) / 2;
+
+$top: hsla(36, 37%, 100%, 1); //#fffefc;
+$mid: hsla(36, 35%, 99%, .965); //#fcfbfa;
+$bottom: hsla(36, 33%, 98%, 1); //#faf9f7;
+
+$black: #00001a;
+$halfblack: rgba(0, 0, 26, .25);
+$quarterblack: rgba(0, 0, 26, .08);
+
+$l-shadow: 0 .25rem 1rem -.25rem $halfblack;
+$m-shadow: 0 .125rem 1rem -.25rem $halfblack;
+$s-shadow: 0 .125rem .5rem -.125rem $halfblack;
+
+$fancypos-1: left top;
+$fancyhover-1: right bottom;
+$fancybg-1: linear-gradient(to right bottom,
+							$top 50%,
+							gold 50%,
+							yellowgreen 100%);
+
+$fancypos-2: right top;
+$fancyhover-2: left bottom;
+$fancybg-2: linear-gradient(to left bottom,
+							$top 50%,
+							orangered 50%,
+							gold 100%);
+
+$fancypos-3: right bottom;
+$fancyhover-3: left top;
+$fancybg-3: linear-gradient(to left top,
+							$top 50%,
+							hotpink 50%,
+							darkorange 100%);
+
+$fancypos-4: left bottom;
+$fancyhover-4: right top;
+$fancybg-4: linear-gradient(to right top,
+							$top 50%,
+							orchid 50%,
+							darkturquoise 100%);
+
+$socialpos: left bottom;
+$socialhover: right top;
+
+$twitterbg: linear-gradient(to left bottom,
+							  #0b6cf0 0%,
+							  #5befff 50%,
+							  black 50%);
+
+$instagrambg: linear-gradient(to left bottom,
+							  #4c64d3 0%,
+							  #cc3188 16%,
+							  #f66c33 33%,
+							  #fed678 50%,
+							  black 50%);
+
+$mediumbg: linear-gradient(to left bottom,
+							#00ac6c 0%,
+							#14c767 16%,
+							#06e36f 33%,
+							#32fc8d 50%,
+							black 50%);
+
+$linkpos-1: left top;
+$linkhover-1: right bottom;
+$link-1: linear-gradient(to right bottom,
+							$quarterblack 33%,
+							rgba(255, 215, 0, .5) 66%,
+							rgba(154, 205, 50, .5) 100%);
+$linkpos-2: right top;
+$linkhover-2: left bottom;
+$link-2: linear-gradient(to left bottom,
+							$quarterblack 33%,
+							rgba(255, 69, 0, .5) 66%,
+							rgba(255, 215, 0, .5) 100%);
+
+$linkpos-3: right bottom;
+$linkhover-3: left top;
+$link-3: linear-gradient(to left top,
+							$quarterblack 33%,
+							rgba(255, 105, 180, .5) 66%,
+							rgba(255, 140, 0, .5) 100%);
+
+$linkpos-4: left bottom;
+$linkhover-4: right top;
+$link-4: linear-gradient(to right top,
+							$quarterblack 33%,
+							rgba(219, 112, 219, .5) 66%,
+							rgba(0, 206, 209, .5) 100%);
+
+
+// gold
+// orangered
+
+// orchid
+// darkturqoise
+
+// yellowgreen
+// gold
+
+// hotpink
+// darkorange
